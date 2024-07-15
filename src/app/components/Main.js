@@ -18,7 +18,7 @@ export default function Main(){
 
     const getChamp = async () =>{
       try{
-      const response = await fetch("../api/route")
+      const response = await fetch("http://localhost:3000/api")
       const data = await response.json();
       setChamps(data);
       setTdsCamp(data);
@@ -68,12 +68,13 @@ export default function Main(){
        return <ErrorFetch/>
    }
 
-  if (todosCamp[0] == null){
+  if (champs.length === 0){
     return <Spinner/>
   }
   console.log(champs)
     return(
     <>
+    
     <div className= {styles.filters}>
         <div>
           <input type="text" value={textBusca} placeholder="Pesquise um produto"
