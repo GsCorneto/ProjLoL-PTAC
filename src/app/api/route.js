@@ -46,6 +46,51 @@ export const listaDeChamps = [
         descricao: "Sádico e astuto, Thresh é um espírito ambicioso e incansável das Ilhas das Sombras. Ele já foi guardião de incontáveis segredos arcanos, mas acabou sucumbindo a poderes maiores do que a vida e a morte.",
         dific: "Média"
        },
+       {
+        id: 6,
+        nome: "Ornn",
+        funcao: ["Tanque"],
+        preco: 950,
+        imagem: "https://www.mobafire.com/images/social/build-card/ornn.jpg",
+        descricao: "Ornn é o espírito Freljordano da forja e da artesania. Ele trabalha na solidão de uma enorme fornalha, construída a marteladas por entre as cavernas de lava do vulcão Pedra-Lar.",
+        dific: "Média"
+       },
+       {
+        id: 7,
+        nome: "Ezreal",
+        funcao: ["Atirador", "Mago"],
+        preco: 950,
+        imagem: "https://www.mobafire.com/images/social/build-card/ezreal.jpg",
+        descricao: "Um aventureiro arrojado, com um talento nato nas artes mágicas, Ezreal desbrava catacumbas soterradas, envolve-se com antigas maldições e supera com facilidade as situações mais improváveis.",
+        dific: "Média"
+       },
+       {
+        id: 8,
+        nome: "Kayn",
+        funcao: ["Lutador", "Assassino"],
+        preco: 2350,
+        imagem: "https://www.mobafire.com/images/social/build-card/kayn.jpg",
+        descricao: "Inigualável praticante da letal magia sombria, Shieda Kayn luta para alcançar seu verdadeiro destino: um dia comandar a Ordem das Sombras rumo a uma nova era de supremacia ioniana.",
+        dific: "Alta"
+       },
+       {
+        id: 9,
+        nome: "Aatrox",
+        funcao: ["Lutador"],
+        preco: 2350,
+        imagem: "https://www.mobafire.com/images/social/build-card/aatrox.jpg",
+        descricao: "Antes defensores honrados de Shurima contra o temido Vazio, Aatrox e seus irmãos acabaram se tornando uma ameaça ainda maior para Runeterra, e a única coisa capaz de derrotá-los foi um tipo de feitiçaria mortal e traiçoeira.",
+        dific: "Média"
+       },
+       {
+        id: 10,
+        nome: "Shen",
+        funcao: ["Tanque"],
+        preco: 950,
+        imagem: "https://www.mobafire.com/images/social/build-card/shen.jpg",
+        descricao: "Para os guerreiros ionianos sigilosos conhecidos como Kinkou, Shen, o Olho do Crepúsculo, é um líder. Ele busca permanecer livre da confusão das emoções, preconceito ou ego, caminhando pelo caminho nunca visto do julgamento imparcial entre o reino dos espiritos",
+        dific: "Média"
+       },
 
     ];
 

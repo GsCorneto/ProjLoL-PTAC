@@ -99,18 +99,24 @@ export default function Main(){
       
       {champs.map((campeao)=> 
       
-       <div className={styles.card} key={campeao.id}>
-         <p  className={styles.titulo}>{campeao.nome}</p>
+    <div className={styles.card} key={campeao.id}>
+      <div className={styles.cardImage}>
          <Image 
          width={300} 
          height={300} 
-         src={campeao.imagem}/>
-         <p>{campeao.preco} Ciscos Azuis</p>
-         <p className={styles.desc}>{campeao.descricao.slice(0,15)+ "..."}</p>
-         <Link href={"/campeao/" + campeao.id}>
-           <button>Ver Mais</button>
-         </Link>
-       </div>
+         src={campeao.imagem}
+         alt={campeao.nome}/>
+      </div>
+      <div className={styles.cardContent}>
+          <p  className={styles.cardTitle}>{campeao.nome}</p>
+           <p className={styles.cardPrice}>{campeao.preco} Ciscos Azuis</p>
+           <p className={styles.cardDescription}>{campeao.descricao.slice(0,30)+ "..."}</p>
+           <Link href={"/campeao/" + campeao.id}>
+           <button className={styles.cardButton} >Ver Mais</button>
+           </Link>
+      </div>
+        
+    </div>
 
       )}
       <Footer/>
