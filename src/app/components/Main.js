@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 import Spinner from "./Spinner";
 import ErrorFetch from "./ErrorFetch";
 import Link from "next/link";
-import  listaDeChamps from "../api/route";
 export default function Main(){
 
   const [champs, setChamps] = useState([]);
@@ -80,19 +79,19 @@ export default function Main(){
           <input type="text" value={textBusca} placeholder="Pesquise um produto"
           onChange={(event) => busca(event.target.value)}/>
 
-           <button onClick={ orderAz }> Az </button>
+           <button onClick={ orderAz }> Ordenar de A-Z </button>
         </div>
 
         <div>
-           <button onClick={ orderZa }> Za </button>
+           <button onClick={ orderZa }> Ordenar de Z-A </button>
         </div>
 
         <div>
-           <button onClick={ orderPriceH }> Preço Maior-Menor </button>
+           <button onClick={ orderPriceH }> Preço Menor-Maior </button>
         </div>
 
         <div>
-           <button onClick={ orderPriceL }> Preço Menor-Maior </button>
+           <button onClick={ orderPriceL }> Preço Maior-Menor </button>
         </div>
     </div>
       <main className={styles.main}>

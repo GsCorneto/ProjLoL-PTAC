@@ -1,5 +1,10 @@
+import styles from "./comps.module.css";
+
 export default function ErrorFetch(){
     return(
-        <p>XD deu pau fiote!</p>
+        <div className={styles.error}>
+            <p>Não jogue essa bagaça!</p>
+        </div>
+        
     )
 }
